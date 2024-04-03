@@ -3,7 +3,7 @@ import requests
 import pandas as pd
 
 
-def custom_lambda(event, context)
+def custom_lambda(event, context):
     
     print("Event Data", event)
     response =  response.get("https://www.google.com")
